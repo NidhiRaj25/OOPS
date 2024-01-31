@@ -39,7 +39,7 @@ class child2 : private Parent{
     // z will not be accessible
 };
 
-class child2 : protected Parent{
+class child3 : protected Parent{
     // x willl remain protected
     // y will remain protected
     // z will not be accessible
